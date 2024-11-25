@@ -1,0 +1,22 @@
+﻿{
+  "applications": {
+    "AbpCustomizeLeptonXLite.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44389",
+      "path": "../../../src/AbpCustomizeLeptonXLite.HttpApi.Host/AbpCustomizeLeptonXLite.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "execution": {
+        "order": 4
+      }
+    },
+    "AbpCustomizeLeptonXLite.Blazor": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44352",
+      "path": "../../../src/AbpCustomizeLeptonXLite.Blazor/AbpCustomizeLeptonXLite.Blazor.csproj",
+      "kubernetesService": ".*-blazor$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpCustomizeLeptonXLite.Application": {
+      "path": "src/AbpCustomizeLeptonXLite.Application/AbpCustomizeLeptonXLite.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.Application.Tests": {
+      "path": "test/AbpCustomizeLeptonXLite.Application.Tests/AbpCustomizeLeptonXLite.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCustomizeLeptonXLite.Domain.Shared": {
+      "path": "src/AbpCustomizeLeptonXLite.Domain.Shared/AbpCustomizeLeptonXLite.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.Application.Contracts": {
+      "path": "src/AbpCustomizeLeptonXLite.Application.Contracts/AbpCustomizeLeptonXLite.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.HttpApi": {
+      "path": "src/AbpCustomizeLeptonXLite.HttpApi/AbpCustomizeLeptonXLite.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.HttpApi.Client": {
+      "path": "src/AbpCustomizeLeptonXLite.HttpApi.Client/AbpCustomizeLeptonXLite.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.EntityFrameworkCore.Tests": {
+      "path": "test/AbpCustomizeLeptonXLite.EntityFrameworkCore.Tests/AbpCustomizeLeptonXLite.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCustomizeLeptonXLite.EntityFrameworkCore": {
+      "path": "src/AbpCustomizeLeptonXLite.EntityFrameworkCore/AbpCustomizeLeptonXLite.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.TestBase": {
+      "path": "test/AbpCustomizeLeptonXLite.TestBase/AbpCustomizeLeptonXLite.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpCustomizeLeptonXLite.Domain.Tests": {
+      "path": "test/AbpCustomizeLeptonXLite.Domain.Tests/AbpCustomizeLeptonXLite.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpCustomizeLeptonXLite.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpCustomizeLeptonXLite.HttpApi.Client.ConsoleTestApp/AbpCustomizeLeptonXLite.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpCustomizeLeptonXLite.DbMigrator": {
+      "path": "src/AbpCustomizeLeptonXLite.DbMigrator/AbpCustomizeLeptonXLite.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.HttpApi.Host": {
+      "path": "src/AbpCustomizeLeptonXLite.HttpApi.Host/AbpCustomizeLeptonXLite.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.Blazor": {
+      "path": "src/AbpCustomizeLeptonXLite.Blazor/AbpCustomizeLeptonXLite.Blazor.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.Blazor.Client": {
+      "path": "src/AbpCustomizeLeptonXLite.Blazor.Client/AbpCustomizeLeptonXLite.Blazor.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpCustomizeLeptonXLite.Domain": {
+      "path": "src/AbpCustomizeLeptonXLite.Domain/AbpCustomizeLeptonXLite.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

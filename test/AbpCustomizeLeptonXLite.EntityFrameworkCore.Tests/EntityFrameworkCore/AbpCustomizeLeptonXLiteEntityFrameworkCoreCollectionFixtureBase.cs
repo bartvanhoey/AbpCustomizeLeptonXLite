@@ -1,0 +1,9 @@
+﻿using AbpCustomizeLeptonXLite.EntityFrameworkCore;
+using Xunit;
+
+namespace AbpCustomizeLeptonXLite.EntityFrameworkCore;
+
+public class AbpCustomizeLeptonXLiteEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<AbpCustomizeLeptonXLiteEntityFrameworkCoreFixture>
+{
+
+}

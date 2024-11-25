@@ -1,0 +1,9 @@
+﻿using Xunit;
+
+namespace AbpCustomizeLeptonXLite.EntityFrameworkCore;
+
+[CollectionDefinition(AbpCustomizeLeptonXLiteTestConsts.CollectionDefinitionName)]
+public class AbpCustomizeLeptonXLiteEntityFrameworkCoreCollection : ICollectionFixture<AbpCustomizeLeptonXLiteEntityFrameworkCoreFixture>
+{
+
+}
