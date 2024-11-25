@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.Localization;
 using AbpCustomizeLeptonXLite.Localization;
-using Microsoft.Extensions.Localization;
-using AbpCustomizeLeptonXLite.Localization;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Ui.Branding;
 

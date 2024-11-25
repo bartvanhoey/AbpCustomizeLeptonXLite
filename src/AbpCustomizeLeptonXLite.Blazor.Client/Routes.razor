@@ -1,8 +1,9 @@
+@using AbpCustomizeLeptonXLite.Blazor.Client.Pages
 @using Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite
 @using Volo.Abp.AspNetCore.Components.WebAssembly.WebApp
 <Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="WebAppAdditionalAssembliesHelper.GetAssemblies<AbpCustomizeLeptonXLiteBlazorClientModule>()">
     <Found Context="routeData">
-        <AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(MainLayout)">
+        <AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(MyMainLayout)">
             <NotAuthorized>
                 <RedirectToLogin />
             </NotAuthorized>

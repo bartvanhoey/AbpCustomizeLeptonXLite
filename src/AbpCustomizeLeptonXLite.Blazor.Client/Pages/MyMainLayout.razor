@@ -1,0 +1,12 @@
+﻿@using Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite;
+@using Volo.Abp.DependencyInjection
+@inherits MainLayout
+
+@attribute [ExposeServices(typeof(MainLayout))]
+@attribute [Dependency(ReplaceServices = true)]
+
+
+<div id="currentLayout" class="w-100">
+    <NavMenu></NavMenu>
+    @Body
+</div>
